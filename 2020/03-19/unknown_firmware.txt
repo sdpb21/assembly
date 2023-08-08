@@ -1,0 +1,12 @@
+INICIALIZATION:
+enables all peripheral interrupts; set the value for the CCPR1 register; configures the prescaler, postscaler and the
+period of Timer2; configures the external interruption in a way that happens on the falling edge of the signal on the
+INT pin; disables the Timer2 interrupt; enables the external interrupt via INT pin; turns on Timer1; enables all
+interrupts. Configures GPIO inputs and outputs, pin 7 or GP0 and pin 6 or GP1 as outputs; pin 5 (GP2), pin 4 (GP3),
+pin 3 (GP4) and pin 2 (GP5) as inputs.
+
+AFTER INICIALIZATION:
+starts a loop and set the pin 6 (GP1) to 1 (5 volts) and stays on that state until detects a falling edge on the
+signal introduced on pin 5 (GP2). Once the falling edge is detected, set the pin 7 (GP0) to 1 for a lapse of time,
+then clear the same pin for another lapse of time and this repeats in an infinite loop. On the pin 7 we will get a
+signal that seems like a periodic signal with a variable frequency and thats all the firmware do.
