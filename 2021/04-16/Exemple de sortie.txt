@@ -1,0 +1,57 @@
+Debut du premier programme - addition
+
+Entrez deux valeurs entieres : -45  88
+La somme est 43
+Fin du premier programme
+
+Debut du deuxieme programme - soustraction
+
+Entrez deux valeurs entieres : 66  -33
+La difference est 99
+Fin du deuxieme programme
+
+Debut du troisieme programme - if
+
+Entrez deux valeurs entieres : -8 -22
+-8 est plus grand ou egal a -22
+Fin du troisieme programme
+
+Debut du quatrieme programme - while
+
+N =  1
+N =  2
+N =  3
+N =  4
+N =  5
+N =  6
+N =  7
+N =  8
+N =  9
+Fin du quatrieme programme
+
+Debut du cinquieme programme - do while
+
+N =  1
+N =  2
+N =  3
+N =  4
+N =  5
+N =  6
+N =  7
+N =  8
+N =  9
+Fin du cinquieme programme
+
+Debut du sixieme programme - for
+
+N =  1
+N =  2
+N =  3
+N =  4
+N =  5
+N =  6
+N =  7
+N =  8
+N =  9
+Fin du sixieme programme
+
